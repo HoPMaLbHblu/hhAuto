@@ -1,0 +1,24 @@
+{
+  "manifest_version": 3,
+  "name": "HHAuto",
+  "version": "1.0.0",
+  "description": "HHAuto: автоотклики на hh.ru с письмом, фильтрами IT-вакансий, заполнением анкет и остановкой при капче.",
+  "content_scripts": [
+    {
+      "matches": [
+        "https://hh.ru/*",
+        "https://*.hh.ru/*"
+      ],
+      "js": [
+        "profile.js",
+        "heartbeat.js",
+        "questionnaire.js",
+        "content.js"
+      ],
+      "run_at": "document_idle"
+    }
+  ],
+  "background": {
+    "service_worker": "background.js"
+  }
+}

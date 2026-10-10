@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 560" font-family="Segoe UI, Arial, sans-serif">
+  <rect width="960" height="560" rx="18" fill="#0f172a"/>
+  <text x="40" y="52" fill="#f8fafc" font-size="24" font-weight="700">Установка HHAuto за 4 шага</text>
+  <text x="40" y="80" fill="#94a3b8" font-size="14">Chrome → режим разработчика → загрузить распакованное расширение</text>
+
+  <!-- Step 1: profile -->
+  <g transform="translate(40,110)">
+    <rect width="420" height="190" rx="14" fill="#1e293b" stroke="#334155"/>
+    <circle cx="34" cy="34" r="18" fill="#22c55e"/><text x="34" y="40" text-anchor="middle" fill="#052e16" font-size="16" font-weight="700">1</text>
+    <text x="64" y="40" fill="#f8fafc" font-size="17" font-weight="600">Создайте profile.js</text>
+    <rect x="24" y="66" width="372" height="100" rx="8" fill="#0b1220"/>
+    <text x="40" y="94" fill="#94a3b8" font-size="13" font-family="Consolas, monospace">hhAuto/</text>
+    <text x="60" y="118" fill="#cbd5e1" font-size="13" font-family="Consolas, monospace">profile.example.js</text>
+    <text x="210" y="118" fill="#22c55e" font-size="13" font-family="Consolas, monospace">→ копия →</text>
+    <text x="60" y="142" fill="#facc15" font-size="13" font-family="Consolas, monospace">profile.js</text>
+    <text x="150" y="142" fill="#94a3b8" font-size="12">заполните своими данными</text>
+  </g>
+
+  <!-- Step 2: developer mode -->
+  <g transform="translate(500,110)">
+    <rect width="420" height="190" rx="14" fill="#1e293b" stroke="#334155"/>
+    <circle cx="34" cy="34" r="18" fill="#22c55e"/><text x="34" y="40" text-anchor="middle" fill="#052e16" font-size="16" font-weight="700">2</text>
+    <text x="64" y="40" fill="#f8fafc" font-size="17" font-weight="600">Откройте chrome://extensions</text>
+    <rect x="24" y="66" width="372" height="34" rx="17" fill="#0b1220" stroke="#334155"/>
+    <text x="44" y="88" fill="#cbd5e1" font-size="13" font-family="Consolas, monospace">chrome://extensions</text>
+    <text x="24" y="140" fill="#cbd5e1" font-size="14">Developer mode / Режим разработчика</text>
+    <rect x="320" y="122" width="52" height="26" rx="13" fill="#3b82f6"/>
+    <circle cx="358" cy="135" r="9" fill="#ffffff"/>
+    <text x="24" y="172" fill="#94a3b8" font-size="12">Переключатель в правом верхнем углу — включите</text>
+  </g>
+
+  <!-- Step 3: load unpacked -->
+  <g transform="translate(40,330)">
+    <rect width="420" height="190" rx="14" fill="#1e293b" stroke="#334155"/>
+    <circle cx="34" cy="34" r="18" fill="#22c55e"/><text x="34" y="40" text-anchor="middle" fill="#052e16" font-size="16" font-weight="700">3</text>
+    <text x="64" y="40" fill="#f8fafc" font-size="17" font-weight="600">Нажмите Load unpacked</text>
+    <rect x="24" y="72" width="180" height="40" rx="20" fill="none" stroke="#60a5fa" stroke-width="2"/>
+    <text x="114" y="97" text-anchor="middle" fill="#93c5fd" font-size="14" font-weight="600">Load unpacked</text>
+    <path d="M214 92 h40" stroke="#22c55e" stroke-width="2" marker-end="url(#a)"/>
+    <text x="262" y="97" fill="#cbd5e1" font-size="13">«Загрузить</text>
+    <text x="262" y="115" fill="#cbd5e1" font-size="13">распакованное»</text>
+    <text x="24" y="160" fill="#94a3b8" font-size="12">Кнопка слева вверху, появляется после шага 2</text>
+  </g>
+
+  <!-- Step 4: select folder -->
+  <g transform="translate(500,330)">
+    <rect width="420" height="190" rx="14" fill="#1e293b" stroke="#334155"/>
+    <circle cx="34" cy="34" r="18" fill="#22c55e"/><text x="34" y="40" text-anchor="middle" fill="#052e16" font-size="16" font-weight="700">4</text>
+    <text x="64" y="40" fill="#f8fafc" font-size="17" font-weight="600">Выберите папку hhAuto</text>
+    <rect x="24" y="64" width="372" height="96" rx="8" fill="#f1f5f9"/>
+    <text x="38" y="86" fill="#475569" font-size="12">Documents  ›  hhAuto  ›</text>
+    <text x="38" y="114" fill="#334155" font-size="12">Folder:</text>
+    <rect x="86" y="100" width="296" height="22" rx="3" fill="#ffffff" stroke="#94a3b8"/>
+    <text x="94" y="116" fill="#0f172a" font-size="12">hhAuto</text>
+    <rect x="200" y="132" width="96" height="22" rx="3" fill="#ffffff" stroke="#2563eb" stroke-width="1.5"/>
+    <text x="248" y="147" text-anchor="middle" fill="#0f172a" font-size="12">Select Folder</text>
+    <rect x="304" y="132" width="78" height="22" rx="3" fill="#ffffff" stroke="#cbd5e1"/>
+    <text x="343" y="147" text-anchor="middle" fill="#475569" font-size="12">Cancel</text>
+    <text x="24" y="180" fill="#94a3b8" font-size="12">Выбирайте саму папку, где лежит manifest.json</text>
+  </g>
+
+  <defs>
+    <marker id="a" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M0 0 L10 5 L0 10 z" fill="#22c55e"/>
+    </marker>
+  </defs>
+</svg>
